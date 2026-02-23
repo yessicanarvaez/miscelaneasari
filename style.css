@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    font-family:'Segoe UI', Arial, sans-serif;
+    color:#222;
+    scroll-behavior:smooth;
+
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("fondo3d.jpg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* MENÚ MEJORADO */
+nav{
+    background:white;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+    position:sticky;
+    top:0;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    z-index:1000;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#333;
+    padding:10px 18px;
+    border-radius:12px;
+    border:2px solid #ff6fb5;
+    background:#fff;
+    transition:0.3s;
+    font-family:'Segoe UI', sans-serif;
+}
+
+/* efecto cuadrito */
+nav a:hover{
+    background:#ff6fb5;
+    color:white;
+    transform:scale(1.08);
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* SECCIÓN SOBRE NOSOTROS MEJORADA */
+.sobre{
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.cuadro-sobre{
+    background: linear-gradient(135deg,#ffffff,#ffe6f3);
+    padding:35px;
+    max-width:850px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    border:3px solid #ff6fb5;
+    transition:0.4s;
+    text-align:center;
+}
+
+.cuadro-sobre:hover{
+    transform:scale(1.03);
+}
+
+.cuadro-sobre h2{
+    font-size:34px;
+    color:#4a6cf7;
+    margin-bottom:15px;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.cuadro-sobre p{
+    font-size:18px;
+    line-height:1.7;
+    font-family:'Segoe UI', sans-serif;
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miscelánea Sari</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:#222;
+    scroll-behavior:smooth;
+}
+
+/* Fondo animado */
+body::before{
+    content:"";
+    position:fixed;
+    width:200%;
+    height:200%;
+    background: linear-gradient(45deg,#4a6cf7,#ff6fb5,#6fd3ff,#ff9ad5);
+    animation: fondoAnimado 20s linear infinite;
+    z-index:-1;
+    opacity:0.5;
+}
+
+@keyframes fondoAnimado{
+    0%{transform: translate(-25%, -25%) rotate(0deg);}
+    100%{transform: translate(-25%, -25%) rotate(360deg);}
+}
+
+/* MENÚ */
+nav{
+    background:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    padding:15px;
+    position:sticky;
+    top:0;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    z-index:1000;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#333;
+    padding:10px 18px;
+    border-radius:10px;
+    border:2px solid #ff6fb5;
+    background:#fff;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#ff6fb5;
+    color:white;
+    transform:scale(1.08);
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:60px 20px 40px;
+}
+
+.logo{
+    width:110px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+/* Secciones */
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+/* SOBRE NOSOTROS */
+.sobre{
+    display:flex;
+    justify-content:center;
+}
+
+.cuadro-sobre{
+    background: linear-gradient(135deg,#ffffff,#ffe6f3);
+    padding:35px;
+    max-width:850px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    border:3px solid #ff6fb5;
+    transition:0.4s;
+}
+
+.cuadro-sobre:hover{
+    transform:scale(1.03);
+}
+
+/* Tarjetas */
+.beneficios{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:260px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px) scale(1.04);
+}
+
+.card img{
+    width:100%;
+    border-radius:12px;
+}
+
+/* Botón */
+.boton{
+    display:inline-block;
+    padding:12px 20px;
+    background:#ff6fb5;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+.boton:hover{
+    background:#4a6cf7;
+}
+
+/* WhatsApp flotante */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Footer */
+footer{
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+@media (max-width:700px){
+.card{
+    width:90%;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#servicios">Servicios</a>
+<a href="#vasos">Vasos</a>
+<a href="#impresiones">Impresiones</a>
+<a href="#laminacion">Laminación</a>
+<a href="#estampados">Estampados</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<header>
+<img class="logo" src="logo.png">
+<h1>Miscelánea Sari</h1>
+<p>Impresiones, tecnología y productos personalizados</p>
+</header>
+
+<section class="sobre">
+<div class="cuadro-sobre">
+<h2>Sobre Nosotros</h2>
+<p>
+Ofrecemos una amplia variedad de servicios tecnológicos y personalizados.
+Realizamos matrículas estudiantiles, investigaciones y desarrollo de tareas académicas.
+Brindamos servicio de impresiones y laminación de documentos, así como estampado
+personalizado en diferentes productos.
+
+Además, ofrecemos mantenimiento preventivo y correctivo de computadores,
+instalación de software y venta de accesorios tecnológicos.
+</p>
+</div>
+</section>
+
+<section id="servicios">
+<h2>Servicios</h2>
+
+<div class="beneficios">
+
+<div class="card">
+<img src="impresion.jpeg">
+<h3>Impresiones</h3>
+<p>Documentos, tareas, fotos e imágenes.</p>
+<a class="boton" href="#impresiones">Ver ejemplos</a>
+</div>
+
+<div class="card">
+<img src="laminacion1.jpeg">
+<h3>Laminación</h3>
+<p>Protección para documentos.</p>
+<a class="boton" href="#laminacion">Ver trabajos</a>
+</div>
+
+<div class="card">
+<img src="vaso.jpeg">
+<h3>Vasos personalizados</h3>
+<p>Regalos únicos.</p>
+<a class="boton" href="#vasos">Ver estilos</a>
+</div>
+
+<div class="card">
+<img src="mantenimiento.jpeg">
+<h3>Mantenimiento PC</h3>
+<p>Instalación de programas y reparación.</p>
+</div>
+
+<div class="card">
+<img src="camiseta.jpeg">
+<h3>Estampados</h3>
+<p>Camisetas, gorras, chaquetas y bolsos personalizados.</p>
+<a class="boton" href="#estampados">Ver diseños</a>
+</div>
+
+</div>
+</section>
+
+<section id="estampados">
+<h2>Estampados Personalizados</h2>
+
+<div class="beneficios">
+
+<div class="card">
+<img src="camiseta.jpeg">
+<p>Camisetas personalizadas</p>
+</div>
+
+<div class="card">
+<img src="gorra.jpeg">
+<p>Gorras con diseño</p>
+</div>
+
+<div class="card">
+<img src="chaqueta.jpeg">
+<p>Chaquetas estampadas</p>
+</div>
+
+<div class="card">
+<img src="bolso.jpeg">
+<p>Bolsos personalizados</p>
+</div>
+
+</div>
+</section>
+
+<section id="vasos">
+<h2>Estilos de Vasos</h2>
+
+<div class="beneficios">
+
+<div class="card">
+<img src="isla.jpeg">
+<p>Vaso con nombre</p>
+</div>
+
+<div class="card">
+<img src="boy.jpeg">
+<p>Vasos para regalo</p>
+</div>
+
+<div class="card">
+<img src="copa.jpeg">
+<p>Diseños elegantes</p>
+</div>
+
+</div>
+</section>
+
+<section id="impresiones">
+<h2>Ejemplos de Impresión</h2>
+
+<div class="beneficios">
+
+<div class="card">
+<img src="impresion de fotos.jpeg">
+<p>Paisajes</p>
+</div>
+
+<div class="card">
+<img src="noticias.jpeg">
+<p>Documentos</p>
+</div>
+
+</div>
+</section>
+
+<section id="laminacion">
+<h2>Laminación</h2>
+
+<div class="beneficios">
+
+<div class="card">
+<img src="carnet.jpg">
+<p>Carnet protegido</p>
+</div>
+
+<div class="card">
+<img src="registro.jpg">
+<p>Documentos protegidos</p>
+</div>
+
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contáctanos</h2>
+<p>Haz tu pedido o solicita un servicio.</p>
+
+<a class="boton" href="https://wa.me/573112008835">WhatsApp</a>
+<a class="boton" href="mailto:yessican494@gmail.com">Correo</a>
+</section>
+
+<footer>
+© 2026 Miscelánea Sari
+</footer>
+
+<a class="whatsapp" href="https://wa.me/573112008835">WhatsApp</a>
+
+</body>
+</html>
