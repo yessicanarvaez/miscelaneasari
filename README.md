@@ -1,8 +1,12 @@
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bb947a6-9c95-45aa-8ac5-f7e0aa4969bb" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bcce9c4-45fc-42b8-9eba-860074d7803b" /> Miscelánea Sari
  Maria Yessica Narvaez Nieto
+ 
  28 de febrero del 2025
+ 
  CALIDAD SERVICIO DE SOFTWARE 3
+ 
   Descripción del proyecto
+  
 Este proyecto es una página web creada en HTML y CSS para presentar los servicios que ofrece Miscelánea Sari relacionados con tecnología, impresiones y accesorios.
 Descripción del proyecto
 
