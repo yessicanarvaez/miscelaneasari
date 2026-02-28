@@ -60,10 +60,7 @@ Está pensado para estudiantes, personas de la comunidad y clientes que necesite
 
  Vista previa del proyecto
 
-<p align="center">
-  <img src="images/imagen1.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
-  <img src="images/imagen2.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
-</p>
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bb947a6-9c95-45aa-8ac5-f7e0aa4969bb" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bcce9c4-45fc-42b8-9eba-860074d7803b" /> 
 
 ---
 
