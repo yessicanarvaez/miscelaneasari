@@ -64,6 +64,15 @@ Hacer doble clic sobre index.html para abrirlo en el navegador web (Google Chrom
 Automáticamente se mostrará la página web del proyecto Miscelánea Sari.
 También se puede abrir directamente desde el navegador si el proyecto está publicado en GitHub Pages
 
+Vista previa del proyecto
+
+<p align="center">
+  <img src="images/imagen1.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
+  <img src="images/imagen2.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
+  <img src="images/imagen3.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
+</p>
+
+
 Mejoras futuras
 
 En el futuro, este proyecto puede mejorar agregando nuevas funcionalidades y mejoras visuales, como:
