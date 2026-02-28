@@ -46,10 +46,6 @@ Se utilizan imágenes y estilos para hacer la página más atractiva y clara par
 Botones de acceso rápido
 Incluye botones que facilitan el acceso a información o secciones importantes del sitio.
 
- Capturas de pantalla
-
-![Página principal de Miscelánea Sari](images/captura1,captura2,captura3)
-
 Cómo ejecutar el proyecto
 
 Para abrir y visualizar el proyecto en tu computador, sigue estos pasos:
