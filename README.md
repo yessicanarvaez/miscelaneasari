@@ -1,4 +1,10 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bb947a6-9c95-45aa-8ac5-f7e0aa4969bb" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bcce9c4-45fc-42b8-9eba-860074d7803b" /> Miscelánea Sari
+# Miscelánea Sari
+
+## Capturas de pantalla
+
+![Página principal](images/captura1.png)
+![Servicios](images/captura2.png)
+
  Maria Yessica Narvaez Nieto
  
  28 de febrero del 2025
