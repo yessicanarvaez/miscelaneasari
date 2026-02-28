@@ -1,9 +1,8 @@
 # Miscelánea Sari
 
-## Capturas de pantalla
 
-![Página principal](images/captura1.png)
-![Servicios](images/captura2.png)
+![Página principal](images/captura1.jpeg)
+![Servicios](images/captura2.jpeg)
 
  Maria Yessica Narvaez Nieto
  
