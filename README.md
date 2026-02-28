@@ -1,3 +1,4 @@
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bb947a6-9c95-45aa-8ac5-f7e0aa4969bb" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bcce9c4-45fc-42b8-9eba-860074d7803b" /> 
 
 Miscelánea Sari
 
@@ -72,5 +73,3 @@ Mejorar el diseño responsive para que se vea mejor en celulares y tablets.
 Agregar animaciones y efectos visuales modernos en la página.
 Implementar un formulario de contacto que envíe mensajes directamente al correo.
 Integrar redes sociales para que los clientes puedan comunicarse más fácilmente.
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bb947a6-9c95-45aa-8ac5-f7e0aa4969bb" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bcce9c4-45fc-42b8-9eba-860074d7803b" /> 
-
