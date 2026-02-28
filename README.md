@@ -61,6 +61,8 @@ Está pensado para estudiantes, personas de la comunidad y clientes que necesite
 ---
 
  Vista previa del proyecto
+ ![Texto Alternativo](ruta/o/url/de/la/imagen.jpeg)
+ ![Descripción](ruta_captura.jpeg)
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5bb947a6-9c95-45aa-8ac5-f7e0aa4969bb" />
 
