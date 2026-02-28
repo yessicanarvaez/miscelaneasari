@@ -15,7 +15,9 @@ El proyecto consiste en una página web informativa donde se presentan los servi
 - Mantenimiento e instalación de software  
 - Impresiones y laminación  
 - Venta de accesorios  
-- Estampados en camisas y vasos personalizados  
+- Estampados en camisas y vasos personalizados
+  
+---
 
  ¿Qué problema soluciona?
 Permite que las personas conozcan fácilmente los servicios en un solo lugar, evitando que tengan que buscar diferentes sitios para trabajos digitales, impresiones o soporte básico de computación.
