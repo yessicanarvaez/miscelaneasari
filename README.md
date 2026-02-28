@@ -1,15 +1,15 @@
-# Miscelánea Sari
+ Miscelánea Sari
 
-**Autora:** Maria Yessica Narvaez Nieto  
-**Fecha:** 28 de febrero del 2025  
-**Materia:** Calidad Servicio de Software 3  
+Autora:** Maria Yessica Narvaez Nieto  
+Fecha:** 28 de febrero del 2025  
+Materia:** Calidad Servicio de Software 3  
 
 ---
 
-## 📌 Descripción del proyecto
+ Descripción del proyecto
 Este proyecto es una página web creada en **HTML y CSS** para presentar los servicios que ofrece **Miscelánea Sari** relacionados con tecnología, impresiones y accesorios.
 
-### ¿Qué hace el proyecto?
+ ¿Qué hace el proyecto?
 El proyecto consiste en una página web informativa donde se presentan los servicios disponibles:  
 - Trabajos en computador  
 - Mantenimiento e instalación de software  
@@ -17,15 +17,14 @@ El proyecto consiste en una página web informativa donde se presentan los servi
 - Venta de accesorios  
 - Estampados en camisas y vasos personalizados  
 
-### ¿Qué problema soluciona?
+ ¿Qué problema soluciona?
 Permite que las personas conozcan fácilmente los servicios en un solo lugar, evitando que tengan que buscar diferentes sitios para trabajos digitales, impresiones o soporte básico de computación.
 
-### ¿Para quién está pensado?
+ ¿Para quién está pensado?
 Está pensado para estudiantes, personas de la comunidad y clientes que necesiten servicios tecnológicos, impresiones o accesorios de forma rápida y cercana.
 
 ---
-
-## 🛠️ Tecnologías utilizadas
+ Tecnologías utilizadas
 - **HTML** → estructura de la página web  
 - **CSS** → diseño, colores y estilos visuales  
 - **Git** → control de versiones  
@@ -33,7 +32,7 @@ Está pensado para estudiantes, personas de la comunidad y clientes que necesite
 
 ---
 
-## 📂 Estructura del proyecto
+ Estructura del proyecto
 - `index.html` → estructura principal  
 - `css/` → estilos del sitio  
 - `IMA/` → recursos del proyecto  
@@ -41,7 +40,7 @@ Está pensado para estudiantes, personas de la comunidad y clientes que necesite
 
 ---
 
-## ⚙️ Funcionalidades
+ Funcionalidades
 - Página principal informativa  
 - Sección de servicios organizada  
 - Diseño responsivo (celulares, tablets, PC)  
@@ -50,8 +49,7 @@ Está pensado para estudiantes, personas de la comunidad y clientes que necesite
 - Botones de acceso rápido  
 
 ---
-
-## ▶️ Cómo ejecutar el proyecto
+ Cómo ejecutar el proyecto
 1. Ingresar al repositorio en GitHub.  
 2. Descargar el repositorio (`Code > Download ZIP`).  
 3. Descomprimir la carpeta.  
@@ -60,16 +58,16 @@ Está pensado para estudiantes, personas de la comunidad y clientes que necesite
 
 ---
 
-## 📸 Vista previa del proyecto
+ Vista previa del proyecto
 
 <p align="center">
-  <img src="images/imagen1.jpg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
-  <img src="images/imagen2.jpg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
+  <img src="images/imagen1.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
+  <img src="images/imagen2.jpeg" width="350" style="margin:10px; border-radius:8px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);">
 </p>
 
 ---
 
-## 🚀 Mejoras futuras
+ Mejoras futuras
 - Sistema de pedidos en línea  
 - Galería de trabajos realizados  
 - Mejorar diseño responsive  
